@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/KaitoMuzic1413/chat-app/issues"
   },
-  "homepage": "https://github.com/KaitoMuzic1413/chat-app#readme"
+  "homepage": "https://github.com/KaitoMuzic1413/chat-app#readme",
+  "dependencies": {
+    "mongoose": "^9.9.4"
+  }
 }
