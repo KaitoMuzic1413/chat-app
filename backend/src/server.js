@@ -9,13 +9,11 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-// Middleware parse JSON
 app.use(express.json());
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
-// Health check endpoint cho Render
 app.get("/", (req, res) => {
   res.send("Chatify Backend API is running...");
 });
